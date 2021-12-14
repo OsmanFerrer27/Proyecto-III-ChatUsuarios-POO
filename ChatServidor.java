@@ -137,9 +137,9 @@ public class ChatServidor {
 			}
 		}
 
-		private void subirDB(String string) {
+		private void subirDB(String texto) {
 			try {
-				String query = "Insert into mensajes values('" + string + "')";
+				String query = "Insert into mensajes values('" + texto + "')";
 				Statement statement = conn.createStatement();
 				statement.executeUpdate(query);
 			} catch (Exception e) {
