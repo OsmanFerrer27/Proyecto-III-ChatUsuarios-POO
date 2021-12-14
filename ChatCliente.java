@@ -33,7 +33,7 @@ public class ChatCliente extends JFrame {
 	public ChatCliente() throws IOException {
 
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setBounds(100, 100, 453, 302);
+		setBounds(100, 100, 455, 300);
 		JPanel panelContenido = new JPanel();
 		panelContenido.setBorder(new EmptyBorder(5, 5, 5, 5));
 		panelContenido.setLayout(new BorderLayout(10, 10));
